@@ -1,0 +1,2 @@
+node_modules folder is the repository of modules/libarry which we are using inside our project.
+and one entry added in package.json file
