@@ -1,7 +1,13 @@
-JSX Challenge
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-1. Create a react app from scratch
-2. Add one h1 element in it
-3. Add one p element in it
-4. Add list of fav 5 netfix series in it
-using an order list.
+const name = "Piyush";
+
+
+ReactDOM.render(
+    <>
+        <h1 contentEditable="true"> Hello, My name is {name}</h1>,
+        <img src= "https://picsum.photos/200/300" alt="randomImages" />
+    </>,
+        document.getElementById("root")
+);
